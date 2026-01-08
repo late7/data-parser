@@ -1,0 +1,674 @@
+{
+  "document_metadata": {
+    "company_name": "Acme Corp",
+    "jurisdiction": "Helsinki, Finland",
+    "last_updated": "2026-01-06T20:00:51.673907",
+    "sources_reviewed": [
+      "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+      "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+      "Acme_Data_Protection_and_Security_Process.pdf",
+      "Acme_Enriched_Financials.xlsx",
+      "Acme_Enriched_Investor_Deck.pptx",
+      "Acme_Market_QA_Investor_DD.pdf",
+      "Acme_Mobile_Investor_Deck_Enriched.pptx",
+      "Acme_Organization_and_Team_Investor_DD.pdf",
+      "Acme_Security_and_Compliance_Investor_DD.pdf"
+    ]
+  },
+  "2_company_overview": {
+    "2_1_company_description": [
+      {
+        "content": "Acme Corp is a mobile productivity platform designed for high-velocity teamwork for SMBs.",
+        "source": "Acme_Enriched_Investor_Deck.pptx",
+        "confidence": "high"
+      },
+      {
+        "content": "Acme Corp is a mobile-first productivity software company serving small and mid-sized businesses (SMBs). The company focuses on enabling high-velocity teamwork through an integrated mobile workspace combining tasks, documents, asynchronous communication, and AI-assisted prioritization.",
+        "source": "Acme_Organization_and_Team_Investor_DD.pdf",
+        "confidence": "high"
+      }
+    ],
+    "2_2_problem_statement": [
+      {
+        "content": "Knowledge workers juggle 6–10 tools daily, leading to context switching costs. Mobile-first teams lack reliable workflows, offline access, and governance on the go. SMBs adopt tools bottom-up but fail to scale them securely.",
+        "source": "Acme_Enriched_Investor_Deck.pptx",
+        "confidence": "high"
+      },
+      {
+        "content": "Consumers manage dozens of physical and digital loyalty cards, creating friction at checkout.",
+        "source": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+        "confidence": "high"
+      },
+      {
+        "content": "Merchants lack real-time visibility into customer behavior and campaign performance.",
+        "source": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+        "confidence": "high"
+      },
+      {
+        "content": "Existing loyalty systems are fragmented, costly, and slow to deploy for SMB retailers.",
+        "source": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+        "confidence": "high"
+      }
+    ],
+    "2_3_solution_overview": [
+      {
+        "content": "An all-in-one, mobile-first workspace combining tasks, lightweight project management, docs, structured knowledge, async video and voice updates, and embedded AI summarization and prioritization.",
+        "source": "Acme_Enriched_Investor_Deck.pptx",
+        "confidence": "high"
+      },
+      {
+        "content": "Acme replaces physical loyalty cards with a single universal QR-based mobile wallet.",
+        "source": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+        "confidence": "high"
+      },
+      {
+        "content": "Merchants access an AI-driven analytics dashboard for customer insights, segmentation, and campaigns.",
+        "source": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+        "confidence": "high"
+      },
+      {
+        "content": "Deployment in <1 day with no additional hardware required.",
+        "source": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+        "confidence": "high"
+      }
+    ]
+  },
+  "3_market_and_go_to_market": {
+    "3_1_market_overview": [
+      {
+        "content": "TAM: €12.5B — Global SMB collaboration & productivity software; SAM: €3.1B — Mobile-first and hybrid-work SMBs in EU & North America; SOM: €450M — Initial beachhead (10–500 employee companies). Tailwinds include BYOD, async-first work, AI copilots, and SMB SaaS consolidation.",
+        "source": "Acme_Enriched_Investor_Deck.pptx",
+        "confidence": "high"
+      },
+      {
+        "content": "Shift to mobile-first workflows as hybrid and field-based work increases among SMB knowledge workers.",
+        "source": "Acme_Market_QA_Investor_DD.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Rising adoption of asynchronous collaboration models reducing reliance on meetings.",
+        "source": "Acme_Market_QA_Investor_DD.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "SMB-driven consolidation of SaaS tools to reduce cost and operational complexity.",
+        "source": "Acme_Market_QA_Investor_DD.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Acceleration of AI adoption in productivity software, particularly summarization and prioritization.",
+        "source": "Acme_Market_QA_Investor_DD.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Bottom-up purchasing behavior enabling rapid team-level entry and expansion-driven growth.",
+        "source": "Acme_Market_QA_Investor_DD.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Increased emphasis on GDPR-aligned and privacy-conscious software vendors in the EU market.",
+        "source": "Acme_Market_QA_Investor_DD.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "EU Retail Loyalty Software TAM: €18B",
+        "source": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+        "confidence": "high"
+      },
+      {
+        "content": "Serviceable Market (Nordics & DACH): €1.2B",
+        "source": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+        "confidence": "high"
+      },
+      {
+        "content": "Tailwinds: cashless payments, mobile wallets, data-driven retail marketing.",
+        "source": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+        "confidence": "high"
+      }
+    ],
+    "3_3_customer_acquisition_and_sales_motion": [
+      {
+        "content": "Bottom-up adoption via free tier, sales-assisted expansion, and enterprise contracts. Primary channels include content, app marketplaces, and founder-led sales.",
+        "source": "Acme_Enriched_Investor_Deck.pptx",
+        "confidence": "high"
+      }
+    ],
+    "3_4_competitive_landscape": [
+      {
+        "content": "Indirect: Notion, Slack, Asana",
+        "source": "Acme_Enriched_Investor_Deck.pptx",
+        "confidence": "high"
+      },
+      {
+        "content": "Direct overlap: ClickUp, Monday",
+        "source": "Acme_Enriched_Investor_Deck.pptx",
+        "confidence": "high"
+      },
+      {
+        "content": "ClickUp — Broad feature coverage with limited mobile-first design.",
+        "source": "Acme_Market_QA_Investor_DD.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Monday.com — Strong workflow tooling with desktop-centric usage patterns.",
+        "source": "Acme_Market_QA_Investor_DD.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Notion — Knowledge-centric platform with limited execution workflows.",
+        "source": "Acme_Market_QA_Investor_DD.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Slack — Communication-focused tool lacking integrated task and document execution.",
+        "source": "Acme_Market_QA_Investor_DD.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Asana — Project management-oriented with limited async media support.",
+        "source": "Acme_Market_QA_Investor_DD.pdf",
+        "confidence": "high"
+      }
+    ],
+    "3_5_competitive_differentiation_and_win_logic": [
+      {
+        "content": "Designed mobile-first, not desktop-adapted; offline sync & low-bandwidth reliability; on-device AI for privacy-sensitive customers; fast SMB deployment velocity.",
+        "source": "Acme_Enriched_Investor_Deck.pptx",
+        "confidence": "high"
+      },
+      {
+        "content": "Mobile-first user experience designed from inception.",
+        "source": "Acme_Market_QA_Investor_DD.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Offline and low-bandwidth operation for distributed teams.",
+        "source": "Acme_Market_QA_Investor_DD.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Integrated async video and voice updates.",
+        "source": "Acme_Market_QA_Investor_DD.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "On-device AI processing to address privacy and compliance concerns.",
+        "source": "Acme_Market_QA_Investor_DD.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Fast deployment and low operational overhead for SMB customers.",
+        "source": "Acme_Market_QA_Investor_DD.pdf",
+        "confidence": "high"
+      }
+    ],
+    "3_2_target_customers_and_icp": [
+      {
+        "value": "Initial focus on SMB retailers with 1–50 locations.",
+        "confidence": "high"
+      }
+    ]
+  },
+  "4_product_and_technology": {
+    "4_4_technical_dependencies_and_constraints": [
+      {
+        "content": "Customer data not used for model training by default",
+        "source": "Acme_Data_Protection_and_Security_Process.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "On-device AI processing for sensitive workflows",
+        "source": "Acme_Data_Protection_and_Security_Process.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Configurable data retention policies",
+        "source": "Acme_Data_Protection_and_Security_Process.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Amazon Web Services (AWS) — infrastructure hosting",
+        "source": "Acme_Security_and_Compliance_Investor_DD.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Stripe — payment processing",
+        "source": "Acme_Security_and_Compliance_Investor_DD.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Sentry — application monitoring and error tracking",
+        "source": "Acme_Security_and_Compliance_Investor_DD.pdf",
+        "confidence": "high"
+      }
+    ],
+    "4_1_product_description": [
+      {
+        "content": "An all-in-one, mobile-first workspace with tasks, project management, docs, structured knowledge, async video and voice updates, and embedded AI.",
+        "source": "Acme_Enriched_Investor_Deck.pptx",
+        "confidence": "high"
+      }
+    ],
+    "4_2_product_maturity_and_roadmap": "Q3: SOC 2 Type I audit, calendar integrations; Q4: Offline mode v2, admin analytics, SSO/SAML; Q1: ML-based task prioritization, workflow marketplace; Q2: Industry templates (consulting, construction, field services)."
+  },
+  "6_team_and_organization": {
+    "6_1_founders_and_executive_team": [
+      {
+        "value": "Aino Laine, Chief Executive Officer (CEO)",
+        "confidence": "high"
+      },
+      {
+        "value": "Mikko Virtanen, Chief Technology Officer (CTO)",
+        "confidence": "high"
+      },
+      {
+        "value": "Sara Niemi, Head of Product",
+        "confidence": "high"
+      }
+    ],
+    "6_2_key_staff_and_advisors": [
+      {
+        "content": "10 FTE total: 8 engineers & growth marketers",
+        "source": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+        "confidence": "high"
+      },
+      {
+        "content": "Advisors: former retail CIOs and payments industry executives",
+        "source": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+        "confidence": "high"
+      },
+      {
+        "content": "Senior iOS Engineer",
+        "source": "Acme_Organization_and_Team_Investor_DD.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Senior Android Engineer",
+        "source": "Acme_Organization_and_Team_Investor_DD.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Backend Engineer",
+        "source": "Acme_Organization_and_Team_Investor_DD.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Sales Lead",
+        "source": "Acme_Organization_and_Team_Investor_DD.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Customer Success Manager",
+        "source": "Acme_Organization_and_Team_Investor_DD.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Marketing Manager",
+        "source": "Acme_Organization_and_Team_Investor_DD.pdf",
+        "confidence": "high"
+      }
+    ],
+    "6_3_organization_structure_and_hiring_plan": "Current headcount is 10 full-time employees. Hiring plan includes adding 1 Account Executive, 1 DevOps / Site Reliability Engineer, and 1 Data Analyst in the next 6–9 months.",
+    "6_4_founder_commitment_and_incentives": "Founder turnover: 0%."
+  },
+  "7_customers_and_traction": {
+    "7_3_traction_and_revenue_metrics": [
+      {
+        "content": "ARR: €6.0M, MRR: €500k, Net Revenue Retention: 122%, Gross Margin: 82–84%, 20 enterprise pilots converting to paid rollouts, CAC payback < 12 months, Avg. ACV: €9.6k.",
+        "source": "Acme_Enriched_Investor_Deck.pptx",
+        "confidence": "high"
+      },
+      {
+        "content": "MRR €500k (July 2025)",
+        "source": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+        "confidence": "high"
+      },
+      {
+        "content": "12% MoM growth",
+        "source": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+        "confidence": "high"
+      },
+      {
+        "content": "150k monthly active consumers",
+        "source": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+        "confidence": "high"
+      },
+      {
+        "content": "Average merchant ARPU: €1,250 / year",
+        "source": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+        "confidence": "high"
+      },
+      {
+        "content": "Churn < 2.5% monthly (merchant)",
+        "source": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+        "confidence": "high"
+      }
+    ],
+    "7_2_named_customers_and_leads": [
+      {
+        "content": "400 paying merchant locations",
+        "source": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+        "confidence": "high"
+      }
+    ]
+  },
+  "8_operations_and_compliance": {
+    "8_1_internal_processes": [
+      {
+        "content": "Define standardized onboarding and service delivery for Acme enterprise and SMB customers.",
+        "source": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Data minimization and purpose limitation",
+        "source": "Acme_Data_Protection_and_Security_Process.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Encryption in transit and at rest",
+        "source": "Acme_Data_Protection_and_Security_Process.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Separation of customer environments",
+        "source": "Acme_Data_Protection_and_Security_Process.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "24/7 on-call incident response rotation",
+        "source": "Acme_Security_and_Compliance_Investor_DD.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Mean Time To Resolution (MTTR) target of 2 hours for critical incidents",
+        "source": "Acme_Security_and_Compliance_Investor_DD.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Customers notified within 72 hours for material security incidents",
+        "source": "Acme_Security_and_Compliance_Investor_DD.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Post-incident root cause analysis and remediation actions documented",
+        "source": "Acme_Security_and_Compliance_Investor_DD.pdf",
+        "confidence": "high"
+      }
+    ],
+    "8_2_tooling_and_infrastructure": [
+      {
+        "content": "Role-based access control (RBAC)",
+        "source": "Acme_Data_Protection_and_Security_Process.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Multi-factor authentication for admins",
+        "source": "Acme_Data_Protection_and_Security_Process.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Audit logging of privileged actions",
+        "source": "Acme_Data_Protection_and_Security_Process.pdf",
+        "confidence": "high"
+      }
+    ],
+    "8_3_regulatory_and_compliance_status": [
+      {
+        "content": "GDPR-aligned processes",
+        "source": "Acme_Data_Protection_and_Security_Process.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "Annual penetration testing",
+        "source": "Acme_Data_Protection_and_Security_Process.pdf",
+        "confidence": "high"
+      },
+      {
+        "content": "SOC 2 audit roadmap",
+        "source": "Acme_Data_Protection_and_Security_Process.pdf",
+        "confidence": "high"
+      }
+    ]
+  },
+  "9_financials": {
+    "9_1_historical_financials": [
+      {
+        "content": "Revenue 2024 Actual: €6,000,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "COGS 2024 Actual: -€1,050,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "Gross Profit 2024 Actual: €4,950,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "Gross Margin % 2024 Actual: 82.5%",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "R&D 2024 Actual: -€2,100,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "Sales & Marketing 2024 Actual: -€1,450,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "G&A 2024 Actual: -€850,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "Total Opex 2024 Actual: -€4,400,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "EBITDA 2024 Actual: €550,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "EBITDA Margin % 2024 Actual: 9.2%",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "Cash Burn (Annual) 2024 Actual: -€300,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "Ending Cash Balance 2024 Actual: €2,700,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "ARR: €6.0M, MRR: €500k",
+        "source": "Acme_Enriched_Investor_Deck.pptx",
+        "confidence": "high"
+      }
+    ],
+    "9_2_forecasts_and_projections": [
+      {
+        "content": "Revenue 2025 Forecast: €9,500,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "Revenue 2026 Forecast: €15,000,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "COGS 2025 Forecast: -€1,520,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "COGS 2026 Forecast: -€2,250,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "Gross Profit 2025 Forecast: €7,980,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "Gross Profit 2026 Forecast: €12,750,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "Gross Margin % 2025 Forecast: 84.0%",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "Gross Margin % 2026 Forecast: 85.0%",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "R&D 2025 Forecast: -€2,600,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "R&D 2026 Forecast: -€3,200,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "Sales & Marketing 2025 Forecast: -€2,200,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "Sales & Marketing 2026 Forecast: -€3,200,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "G&A 2025 Forecast: -€1,050,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "G&A 2026 Forecast: -€1,350,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "Total Opex 2025 Forecast: -€5,850,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "Total Opex 2026 Forecast: -€7,750,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "EBITDA 2025 Forecast: €2,130,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "EBITDA 2026 Forecast: €5,000,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "EBITDA Margin % 2025 Forecast: 22.4%",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "EBITDA Margin % 2026 Forecast: 33.3%",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "Cash Burn (Annual) 2025 Forecast: -€1,100,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "Cash Burn (Annual) 2026 Forecast: €1,800,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "Ending Cash Balance 2025 Forecast: €1,600,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      },
+      {
+        "content": "Ending Cash Balance 2026 Forecast: €3,400,000",
+        "source": "Acme_Enriched_Financials.xlsx",
+        "confidence": "high"
+      }
+    ],
+    "9_4_cash_position_and_runway": [
+      {
+        "value": "Monthly burn: €250k | Runway: 20 months",
+        "confidence": "high"
+      }
+    ],
+    "9_3_unit_economics": [
+      {
+        "content": "Gross margin: 78%",
+        "source": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+        "confidence": "high"
+      },
+      {
+        "content": "Customer Acquisition Cost (CAC): €45",
+        "source": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+        "confidence": "high"
+      },
+      {
+        "content": "Lifetime Value (LTV): €310",
+        "source": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+        "confidence": "high"
+      },
+      {
+        "content": "LTV / CAC: 6.9x",
+        "source": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+        "confidence": "high"
+      }
+    ]
+  },
+  "10_funding_and_capital_structure": {
+    "10_4_use_of_funds": [
+      {
+        "value": "60% Product & engineering",
+        "confidence": "high"
+      },
+      {
+        "value": "25% Go-to-market",
+        "confidence": "high"
+      },
+      {
+        "value": "15% Operations & compliance",
+        "confidence": "high"
+      }
+    ],
+    "10_3_current_fundraising_round": [
+      {
+        "value": "Raising €5M to fund 18 months of runway toward Series A",
+        "confidence": "high"
+      }
+    ]
+  }
+}
