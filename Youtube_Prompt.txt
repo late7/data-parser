@@ -1,0 +1,10 @@
+Tee python skripti joka
+- lukee läpi kaikki tiedostot docs hakemistossa
+- luo uuden .json documentin master_document-template.json pohjalta samalla rakenteella
+- lisää tähän jokaisen läpikäydyn dokumentin osalta ne kohdat ja vain ne kohdat, joihin kyseisessä dokumentissa relevanttia tietoa
+- master_document-template.json sisältää ohjeen kunkin kappaleen tekemiseen
+- käytä OpenAI responses APIa ja chatgpt-5.2 mallia. .env tiedostossa on token tälle
+- lopuksi tee valmiista .json tiedostosta .docx muotoinen tuloste ihmisen tarkastusta varten
+
+Tavoitteena on saada aikaiseksi totuuden mukainen kooste Due Diligent raporttia varten. 
+Älä keksi mitään. Älä hallusinoi.  
