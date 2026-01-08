@@ -14,13 +14,13 @@ Repo sisältää yhteensä 4 branchia: **main + 3 työkalukohtaista toteutusta**
 - `main`  
   Lähtökohta: tehtävän perusmäärittely ja pohjarakenne.
 
-- `antigravity-gemini`  
+- `antigravity-gemini3pro`  
   Antigravity (Gemini 3 Pro) -työkalulla tuotettu ratkaisu.
 
-- `claude-code-opus`  
+- `claude-opus4.5`  
   Claude Code (Opus 4.5) -työkalulla tuotettu ratkaisu.
 
-- `github-copilot-chatgpt`  
+- `github-copilot-chatgpt-5.2`  
   GitHub Copilot (ChatGPT 5.2) -työkalulla tuotettu ratkaisu.
 
 ## Tarkoitus
