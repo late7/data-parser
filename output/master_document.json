@@ -1,0 +1,2282 @@
+{
+  "document_metadata": {
+    "company_name": {
+      "update_rule": "overwrite",
+      "instruction": "Extract the company name exactly as stated in the documents.",
+      "extracted": "Acme Corp",
+      "evidence": [
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+          "source_location": "page 1",
+          "quote": "Acme Corp — Customer Onboarding & Service Delivery Process"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+          "source_location": "page 1",
+          "quote": "Acme Corp — Customer Onboarding & Service Delivery Process"
+        },
+        {
+          "source_file": "Acme_Data_Protection_and_Security_Process.pdf",
+          "source_location": "page 1",
+          "quote": "Acme Corp — Data Protection & Security Process"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 1",
+          "quote": "Acme Corp"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 7",
+          "quote": "Acme edge:"
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Company: Acme Corp"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 1",
+          "quote": "Acme Mobile"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 3",
+          "quote": "Acme replaces physical loyalty cards with a single universal QR-based mobile wallet."
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Acme Corp — Organization & Team"
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Acme Corp is a mobile-first productivity software company"
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Acme Corp — Security & Compliance"
+        }
+      ]
+    },
+    "legal_entity": {
+      "update_rule": "overwrite",
+      "instruction": "Extract the legal entity name and legal form if explicitly stated.",
+      "extracted": null,
+      "evidence": []
+    },
+    "jurisdiction": {
+      "update_rule": "overwrite",
+      "instruction": "Extract the jurisdiction of incorporation if explicitly stated.",
+      "extracted": "Helsinki, Finland",
+      "evidence": [
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 1",
+          "quote": "Helsinki, Finland"
+        }
+      ]
+    },
+    "dd_version": {
+      "update_rule": "locked",
+      "instruction": "This field is locked and must not be modified by AI."
+    },
+    "last_updated": {
+      "update_rule": "overwrite",
+      "instruction": "Extract the most recent document date referenced.",
+      "extracted": "July 2025",
+      "evidence": [
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Revenue",
+          "quote": "2025-07-01 00:00:00 500000 84 420000 80000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Expenses",
+          "quote": "2025-07-01 00:00:00 220000 220000 80000 520000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Cash",
+          "quote": "2025-07-01 00:00:00 100000 2290479.99 21.2"
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Last updated: Today"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 1",
+          "quote": "July 2025"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 5",
+          "quote": "MRR €500k (July 2025)"
+        }
+      ]
+    },
+    "sources_reviewed": {
+      "update_rule": "append",
+      "instruction": "List source documents reviewed using exact file names.",
+      "extracted": [
+        "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+        "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+        "Acme_Data_Protection_and_Security_Process.pdf",
+        "Acme_Enriched_Financials.xlsx",
+        "Acme_Enriched_Investor_Deck.pptx",
+        "Acme_Market_QA_Investor_DD.pdf",
+        "Acme_Mobile_Investor_Deck_Enriched.pptx",
+        "Acme_Organization_and_Team_Investor_DD.pdf",
+        "Acme_Security_and_Compliance_Investor_DD.pdf",
+        "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+        "Acme_Data_Protection_and_Security_Process.pdf",
+        "Acme_Enriched_Investor_Deck.pptx",
+        "Acme_Enriched_Investor_Deck.pptx",
+        "Acme_Enriched_Investor_Deck.pptx",
+        "Acme_Mobile_Investor_Deck_Enriched.pptx",
+        "Acme_Mobile_Investor_Deck_Enriched.pptx",
+        "Acme_Organization_and_Team_Investor_DD.pdf",
+        "Acme_Security_and_Compliance_Investor_DD.pdf"
+      ],
+      "evidence": [
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+          "source_location": "page 1",
+          "quote": "Acme Corp — Customer Onboarding & Service Delivery Process"
+        },
+        {
+          "source_file": "Acme_Data_Protection_and_Security_Process.pdf",
+          "source_location": "page 1",
+          "quote": "Acme Corp — Data Protection & Security Process"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 1",
+          "quote": "Acme Corp — Mobile Productivity Platform\nHigh-velocity teamwork for SMBs\nHelsinki, Finland | Founded 2023"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 7",
+          "quote": "Acme edge:"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 8",
+          "quote": "Product Roadmap"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 1",
+          "quote": "Acme Mobile — Universal Loyalty Platform\nInvestor Deck | July 2025 | Confidential"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 3",
+          "quote": "Acme replaces physical loyalty cards with a single universal QR-based mobile wallet."
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Acme Corp — Organization & Team"
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Acme Corp — Security & Compliance"
+        }
+      ]
+    }
+  },
+  "1_executive_summary": {
+    "1_1_investment_snapshot": {
+      "update_rule": "locked",
+      "instruction": "This section is intentionally locked and must not be modified by AI."
+    },
+    "1_2_key_facts_at_a_glance": {
+      "update_rule": "locked",
+      "instruction": "This section is intentionally locked and must not be modified by AI."
+    }
+  },
+  "2_company_overview": {
+    "2_1_company_description": {
+      "update_rule": "append",
+      "instruction": "Describe what the company does using factual language from the document.",
+      "extracted": [
+        "The document describes a standardized customer onboarding and service delivery process for Acme customers, including contract initiation, technical onboarding, enablement, and go-live support for enterprise and SMB customers.",
+        "Acme Corp provides onboarding and service delivery for enterprise and SMB customers.",
+        "Mobile Productivity Platform.",
+        "An all-in-one, mobile-first workspace combining tasks & lightweight project management, docs & structured knowledge, async video & voice updates, and embedded AI summarization and prioritization.",
+        "Universal Loyalty Platform",
+        "Acme replaces physical loyalty cards with a single universal QR-based mobile wallet. Merchants access an AI-driven analytics dashboard for customer insights, segmentation, and campaigns. Deployment in <1 day with no additional hardware required.",
+        "Acme Corp is a mobile-first productivity software company serving small and mid-sized businesses (SMBs). The company focuses on enabling high-velocity teamwork through an integrated mobile workspace combining tasks, documents, asynchronous communication, and AI-assisted prioritization."
+      ],
+      "evidence": [
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+          "source_location": "page 1",
+          "quote": "Define standardized onboarding and service delivery for Acme enterprise and SMB customers."
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+          "source_location": "page 1",
+          "quote": "2. Contract Initiation"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+          "source_location": "page 1",
+          "quote": "3. Technical Onboarding"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+          "source_location": "page 1",
+          "quote": "4. Enablement"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+          "source_location": "page 1",
+          "quote": "5. Go-Live & Support"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+          "source_location": "page 1",
+          "quote": "Define standardized onboarding and service delivery for Acme enterprise and SMB customers."
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 1",
+          "quote": "Mobile Productivity Platform"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 3",
+          "quote": "An all-in-one, mobile-first workspace combining:"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 3",
+          "quote": "• Tasks & lightweight project management"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 3",
+          "quote": "• Docs & structured knowledge"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 3",
+          "quote": "• Async video & voice updates"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 3",
+          "quote": "• Embedded AI summarization and prioritization"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 1",
+          "quote": "Universal Loyalty Platform"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 3",
+          "quote": "Acme replaces physical loyalty cards with a single universal QR-based mobile wallet."
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 3",
+          "quote": "Merchants access an AI-driven analytics dashboard for customer insights, segmentation, and campaigns."
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 3",
+          "quote": "Deployment in <1 day with no additional hardware required."
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Acme Corp is a mobile-first productivity software company serving small and mid-sized businesses\n(SMBs)."
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "The company focuses on enabling high-velocity teamwork through an integrated mobile\nworkspace combining tasks, documents, asynchronous communication, and AI-assisted\nprioritization."
+        }
+      ]
+    },
+    "2_2_problem_statement": {
+      "update_rule": "append",
+      "instruction": "Extract the problem the company claims to address, only if explicitly described.",
+      "extracted": [
+        "The document states that knowledge workers use multiple tools daily and incur time costs from context switching; mobile-first teams lack reliable workflows, offline access, and governance; and SMBs adopt tools bottom-up but struggle to scale them securely.",
+        "Consumers manage dozens of physical and digital loyalty cards, creating friction at checkout. Merchants lack real-time visibility into customer behavior and campaign performance. Existing loyalty systems are fragmented, costly, and slow to deploy for SMB retailers."
+      ],
+      "evidence": [
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 2",
+          "quote": "Knowledge workers juggle 6–10 tools daily."
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 2",
+          "quote": "Context switching costs ~23 minutes per interruption."
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 2",
+          "quote": "Mobile-first teams lack reliable workflows, offline access, and governance on the go."
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 2",
+          "quote": "SMBs adopt tools bottom-up but fail to scale them securely."
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 2",
+          "quote": "Consumers manage dozens of physical and digital loyalty cards, creating friction at checkout."
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 2",
+          "quote": "Merchants lack real-time visibility into customer behavior and campaign performance."
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 2",
+          "quote": "Existing loyalty systems are fragmented, costly, and slow to deploy for SMB retailers."
+        }
+      ]
+    },
+    "2_3_solution_overview": {
+      "update_rule": "append",
+      "instruction": "Describe the solution as documented, separating current functionality from planned items.",
+      "extracted": [
+        "High-velocity teamwork for SMBs.",
+        "Current functionality described: an all-in-one, mobile-first workspace combining tasks & lightweight project management, docs & structured knowledge, async video & voice updates, and embedded AI summarization and prioritization.",
+        "Current functionality described: replaces physical loyalty cards with a single universal QR-based mobile wallet; provides merchants an AI-driven analytics dashboard for customer insights, segmentation, and campaigns; deployment in <1 day with no additional hardware required.",
+        "Current solution is an integrated mobile workspace combining tasks, documents, asynchronous communication, and AI-assisted prioritization."
+      ],
+      "evidence": [
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 1",
+          "quote": "High-velocity teamwork for SMBs"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 3",
+          "quote": "An all-in-one, mobile-first workspace combining:"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 3",
+          "quote": "• Tasks & lightweight project management"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 3",
+          "quote": "• Docs & structured knowledge"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 3",
+          "quote": "• Async video & voice updates"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 3",
+          "quote": "• Embedded AI summarization and prioritization"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 3",
+          "quote": "Acme replaces physical loyalty cards with a single universal QR-based mobile wallet."
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 3",
+          "quote": "Merchants access an AI-driven analytics dashboard for customer insights, segmentation, and campaigns."
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 3",
+          "quote": "Deployment in <1 day with no additional hardware required."
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "an integrated mobile\nworkspace combining tasks, documents, asynchronous communication, and AI-assisted\nprioritization"
+        }
+      ]
+    },
+    "2_4_business_model": {
+      "update_rule": "overwrite",
+      "instruction": "Extract how the company generates revenue, including pricing models, if documented.",
+      "extracted": "Pricing is per user per month with tiered plans: Starter (€12), Pro (€24), Enterprise (€49).",
+      "evidence": [
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 6",
+          "quote": "Pricing (per user / month):"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 6",
+          "quote": "• Starter: €12"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 6",
+          "quote": "• Pro: €24"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 6",
+          "quote": "• Enterprise: €49 (SSO, admin, compliance)"
+        }
+      ]
+    }
+  },
+  "3_market_and_go_to_market": {
+    "3_1_market_overview": {
+      "update_rule": "append",
+      "instruction": "Extract descriptions of market context or regulatory environment if explicitly stated.",
+      "extracted": [
+        "The document references a GDPR-related regulatory context.",
+        "Market opportunity context is described with TAM/SAM/SOM sizing for SMB collaboration & productivity software, including tailwinds.",
+        "Market context includes increased hybrid and field-based work among SMB knowledge workers, rising adoption of asynchronous collaboration, SMB consolidation of SaaS tools, acceleration of AI adoption in productivity software, and EU emphasis on GDPR-aligned/privacy-conscious vendors.",
+        "Market opportunity sizing and tailwinds: EU Retail Loyalty Software TAM is stated as €18B; serviceable market in Nordics & DACH is stated as €1.2B; tailwinds include cashless payments, mobile wallets, and data-driven retail marketing.",
+        "The document states GDPR compliance across products and internal processes."
+      ],
+      "evidence": [
+        {
+          "source_file": "Acme_Data_Protection_and_Security_Process.pdf",
+          "source_location": "page 1",
+          "quote": "GDPR-aligned processes"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 4",
+          "quote": "Market Opportunity"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 4",
+          "quote": "TAM: €12.5B — Global SMB collaboration & productivity software"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 4",
+          "quote": "SAM: €3.1B — Mobile-first and hybrid-work SMBs in EU & North America"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 4",
+          "quote": "SOM: €450M — Initial beachhead (10–500 employee companies)"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 4",
+          "quote": "Tailwinds: BYOD, async-first work, AI copilots, SMB SaaS consolidation."
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Shift to mobile-first workflows as hybrid and field-based work increases among SMB knowledge\nworkers."
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Rising adoption of asynchronous collaboration models reducing reliance on meetings."
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "SMB-driven consolidation of SaaS tools to reduce cost and operational complexity."
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Acceleration of AI adoption in productivity software, particularly summarization and prioritization."
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Increased emphasis on GDPR-aligned and privacy-conscious software vendors in the EU market."
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 4",
+          "quote": "Market Opportunity"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 4",
+          "quote": "EU Retail Loyalty Software TAM: €18B"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 4",
+          "quote": "Serviceable Market (Nordics & DACH): €1.2B"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 4",
+          "quote": "Tailwinds: cashless payments, mobile wallets, data-driven retail marketing."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "General Data Protection Regulation (GDPR) compliance implemented across all products and\ninternal processes."
+        }
+      ]
+    },
+    "3_2_target_customers_and_icp": {
+      "update_rule": "overwrite",
+      "instruction": "List target customer segments and ICP definitions only if explicitly documented.",
+      "extracted": "Small and mid-sized businesses (SMBs).",
+      "evidence": [
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+          "source_location": "page 1",
+          "quote": "Define standardized onboarding and service delivery for Acme enterprise and SMB customers."
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+          "source_location": "page 1",
+          "quote": "Define standardized onboarding and service delivery for Acme enterprise and SMB customers."
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 1",
+          "quote": "for SMBs"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 4",
+          "quote": "SAM: €3.1B — Mobile-first and hybrid-work SMBs in EU & North America"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 4",
+          "quote": "SOM: €450M — Initial beachhead (10–500 employee companies)"
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "SMB knowledge\nworkers."
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "for SMB customers."
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "for distributed teams."
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "in the EU market."
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 4",
+          "quote": "Initial focus on SMB retailers with 1–50 locations."
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "serving small and mid-sized businesses\n(SMBs)."
+        }
+      ]
+    },
+    "3_3_customer_acquisition_and_sales_motion": {
+      "update_rule": "append",
+      "instruction": "Extract sales model, go-to-market approach, and sales cycle details if documented.",
+      "extracted": [
+        "Go-to-market is described as bottom-up adoption via a free tier, followed by sales-assisted expansion and then enterprise contracts. Primary channels are content, app marketplaces, and founder-led sales.",
+        "Bottom-up purchasing behavior with team-level entry and expansion-driven growth.",
+        "Go-to-market roles include a Sales Lead responsible for pipeline development, enterprise pilots, and expansion deals; a Customer Success Manager for onboarding, retention, and account expansion; and a Marketing Manager for demand generation, content, and product marketing."
+      ],
+      "evidence": [
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 6",
+          "quote": "Bottom-up adoption via free tier → Sales-assisted expansion → Enterprise contracts"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 6",
+          "quote": "Primary channels: content, app marketplaces, founder-led sales."
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Bottom-up purchasing behavior enabling rapid team-level entry and expansion-driven growth."
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Sales Lead (1) — Responsible for pipeline development, enterprise pilots, and expansion deals."
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Customer Success Manager (1) — Owns onboarding, retention, and account expansion."
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Marketing Manager (1) — Manages demand generation, content, and product marketing."
+        }
+      ]
+    },
+    "3_4_competitive_landscape": {
+      "update_rule": "append",
+      "instruction": "List named competitors or alternative solutions if explicitly mentioned.",
+      "extracted": [
+        "Indirect competitors: Notion, Slack, Asana; direct overlap: ClickUp, Monday.",
+        "Direct competitors (partial overlap): ClickUp; Monday.com. Indirect / functional competitors: Notion; Slack; Asana."
+      ],
+      "evidence": [
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 7",
+          "quote": "Indirect: Notion, Slack, Asana"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 7",
+          "quote": "Direct overlap: ClickUp, Monday"
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Direct competitors (partial overlap):"
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "ClickUp — Broad feature coverage with limited mobile-first design."
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Monday.com — Strong workflow tooling with desktop-centric usage patterns."
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Indirect / functional competitors:"
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Notion — Knowledge-centric platform with limited execution workflows."
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Slack — Communication-focused tool lacking integrated task and document execution."
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Asana — Project management-oriented with limited async media support."
+        }
+      ]
+    },
+    "3_5_competitive_differentiation_and_win_logic": {
+      "update_rule": "append",
+      "instruction": "Extract stated differentiation or win logic only as described in the document.",
+      "extracted": [
+        "Differentiation statements include that customer data is not used for model training by default, on-device AI processing for sensitive workflows, and separation of customer environments.",
+        "Acme differentiation: designed mobile-first (not desktop-adapted); offline sync and low-bandwidth reliability; on-device AI for privacy-sensitive customers; fast SMB deployment velocity.",
+        "Stated competitive positioning includes mobile-first UX, offline/low-bandwidth operation, integrated async video and voice updates, on-device AI processing for privacy/compliance, and fast deployment/low operational overhead for SMB customers.",
+        "Stated differentiation includes deployment speed and no hardware requirement."
+      ],
+      "evidence": [
+        {
+          "source_file": "Acme_Data_Protection_and_Security_Process.pdf",
+          "source_location": "page 1",
+          "quote": "Customer data not used for model training by default"
+        },
+        {
+          "source_file": "Acme_Data_Protection_and_Security_Process.pdf",
+          "source_location": "page 1",
+          "quote": "On-device AI processing for sensitive workflows"
+        },
+        {
+          "source_file": "Acme_Data_Protection_and_Security_Process.pdf",
+          "source_location": "page 1",
+          "quote": "Separation of customer environments"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 7",
+          "quote": "Designed mobile-first, not desktop-adapted"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 7",
+          "quote": "Offline sync & low-bandwidth reliability"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 7",
+          "quote": "On-device AI for privacy-sensitive customers"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 7",
+          "quote": "Fast SMB deployment velocity"
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Acme competitive positioning:"
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Mobile-first user experience designed from inception."
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Offline and low-bandwidth operation for distributed teams."
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Integrated async video and voice updates."
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "On-device AI processing to address privacy and compliance concerns."
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Fast deployment and low operational overhead for SMB customers."
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 3",
+          "quote": "Deployment in <1 day with no additional hardware required."
+        }
+      ]
+    }
+  },
+  "4_product_and_technology": {
+    "4_1_product_description": {
+      "update_rule": "append",
+      "instruction": "Describe products or modules offered by the company as documented.",
+      "extracted": [
+        "Documented product/service components include workspace creation and admin setup, user provisioning via email or SSO, initial data import (tasks, documents), admin onboarding session (60 minutes), end-user training materials and videos, and in-app guided setup.",
+        "Product described as an all-in-one, mobile-first workspace that includes tasks & lightweight project management, docs & structured knowledge, async video & voice updates, and embedded AI summarization and prioritization.",
+        "Product capabilities described include mobile-first user experience, offline/low-bandwidth operation, integrated async video and voice updates, and on-device AI processing.",
+        "Products/modules described include a universal QR-based mobile wallet and an AI-driven analytics dashboard for merchants (customer insights, segmentation, and campaigns).",
+        "Integrated mobile workspace combining tasks, documents, asynchronous communication, and AI-assisted prioritization."
+      ],
+      "evidence": [
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+          "source_location": "page 1",
+          "quote": "Workspace creation and admin setup"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+          "source_location": "page 1",
+          "quote": "User provisioning via email or SSO"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+          "source_location": "page 1",
+          "quote": "Initial data import (tasks, documents)"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+          "source_location": "page 1",
+          "quote": "Admin onboarding session (60 minutes)"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+          "source_location": "page 1",
+          "quote": "End-user training materials and videos"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+          "source_location": "page 1",
+          "quote": "In-app guided setup"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 3",
+          "quote": "An all-in-one, mobile-first workspace combining:"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 3",
+          "quote": "• Tasks & lightweight project management"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 3",
+          "quote": "• Docs & structured knowledge"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 3",
+          "quote": "• Async video & voice updates"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 3",
+          "quote": "• Embedded AI summarization and prioritization"
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Mobile-first user experience designed from inception."
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Offline and low-bandwidth operation for distributed teams."
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Integrated async video and voice updates."
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "On-device AI processing to address privacy and compliance concerns."
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 3",
+          "quote": "a single universal QR-based mobile wallet."
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 3",
+          "quote": "an AI-driven analytics dashboard for customer insights, segmentation, and campaigns."
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "integrated mobile\nworkspace combining tasks, documents, asynchronous communication, and AI-assisted\nprioritization"
+        }
+      ]
+    },
+    "4_2_product_maturity_and_roadmap": {
+      "update_rule": "overwrite",
+      "instruction": "Extract statements about product maturity and roadmap if explicitly stated.",
+      "extracted": "Product roadmap items by quarter: Q3: SOC 2 Type I audit; calendar integrations. Q4: Offline mode v2; admin analytics; SSO/SAML. Q1: ML-based task prioritization; workflow marketplace. Q2: Industry templates (consulting, construction, field services).",
+      "evidence": [
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 8",
+          "quote": "Product Roadmap"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 8",
+          "quote": "Q3: SOC 2 Type I audit, calendar integrations"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 8",
+          "quote": "Q4: Offline mode v2, admin analytics, SSO/SAML"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 8",
+          "quote": "Q1: ML-based task prioritization, workflow marketplace"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 8",
+          "quote": "Q2: Industry templates (consulting, construction, field services)"
+        }
+      ]
+    },
+    "4_3_technology_stack_and_architecture": {
+      "update_rule": "append",
+      "instruction": "List technologies, platforms, and architecture components explicitly referenced.",
+      "extracted": [
+        "Referenced technical components include SSO and \"in-app\" guided setup.",
+        "Referenced architecture/technology components include encryption in transit and at rest, separation of customer environments, role-based access control (RBAC), multi-factor authentication for admins, audit logging of privileged actions, and on-device AI processing for sensitive workflows.",
+        "On-device AI processing is referenced.",
+        "Mobile architectures; scalable backend systems; cloud infrastructure; core APIs; data services.",
+        "Primary data residency is on AWS eu-west-1 (Ireland). Encryption uses AES-256 for data at rest and TLS 1.2+ for data in transit. Access control includes RBAC with SSO via Google Workspace. Backups are daily encrypted with 30-day retention. Automated vulnerability scanning is monthly and high-severity vulnerabilities are patched within 7 days."
+      ],
+      "evidence": [
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+          "source_location": "page 1",
+          "quote": "User provisioning via email or SSO"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+          "source_location": "page 1",
+          "quote": "In-app guided setup"
+        },
+        {
+          "source_file": "Acme_Data_Protection_and_Security_Process.pdf",
+          "source_location": "page 1",
+          "quote": "Encryption in transit and at rest"
+        },
+        {
+          "source_file": "Acme_Data_Protection_and_Security_Process.pdf",
+          "source_location": "page 1",
+          "quote": "Separation of customer environments"
+        },
+        {
+          "source_file": "Acme_Data_Protection_and_Security_Process.pdf",
+          "source_location": "page 1",
+          "quote": "Role-based access control (RBAC)"
+        },
+        {
+          "source_file": "Acme_Data_Protection_and_Security_Process.pdf",
+          "source_location": "page 1",
+          "quote": "Multi-factor authentication for admins"
+        },
+        {
+          "source_file": "Acme_Data_Protection_and_Security_Process.pdf",
+          "source_location": "page 1",
+          "quote": "Audit logging of privileged actions"
+        },
+        {
+          "source_file": "Acme_Data_Protection_and_Security_Process.pdf",
+          "source_location": "page 1",
+          "quote": "On-device AI processing for sensitive workflows"
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "On-device AI processing to address privacy and compliance concerns."
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "deep expertise in scalable backend systems, mobile architectures, and cloud infrastructure."
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Owns core APIs, data services, and cloud infrastructure."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Primary data residency on AWS eu-west-1 (Ireland)."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Encryption standards: AES-256 for data at rest; TLS 1.2+ for data in transit."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Role-based access control (RBAC) with Single Sign-On (SSO) via Google Workspace."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Daily encrypted backups with a 30-day retention policy."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Automated vulnerability scanning performed monthly."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "High-severity vulnerabilities patched within 7 days."
+        }
+      ]
+    },
+    "4_4_technical_dependencies_and_constraints": {
+      "update_rule": "append",
+      "instruction": "Extract stated technical dependencies, integrations, or constraints.",
+      "extracted": [
+        "User provisioning supports email or SSO.",
+        "User provisioning supports email or SSO; onboarding includes initial data import of tasks and documents.",
+        "Planned items include calendar integrations and SSO/SAML.",
+        "The document lists third-party components including AWS for infrastructure hosting (eu-west-1), Stripe for payment processing, and Sentry for application monitoring and error tracking."
+      ],
+      "evidence": [
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+          "source_location": "page 1",
+          "quote": "User provisioning via email or SSO"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+          "source_location": "page 1",
+          "quote": "User provisioning via email or SSO"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+          "source_location": "page 1",
+          "quote": "Initial data import (tasks, documents)"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 8",
+          "quote": "calendar integrations"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 8",
+          "quote": "SSO/SAML"
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Amazon Web Services (AWS) — infrastructure hosting (eu-west-1)."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Stripe — payment processing."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Sentry — application monitoring and error tracking."
+        }
+      ]
+    }
+  },
+  "5_intellectual_property": {
+    "5_1_patents_and_trademarks": {
+      "update_rule": "overwrite",
+      "instruction": "List patents or trademarks only if explicitly documented.",
+      "extracted": null,
+      "evidence": []
+    },
+    "5_2_ip_ownership_and_assignment": {
+      "update_rule": "overwrite",
+      "instruction": "Describe IP ownership or assignment arrangements if stated.",
+      "extracted": null,
+      "evidence": []
+    }
+  },
+  "6_team_and_organization": {
+    "6_1_founders_and_executive_team": {
+      "update_rule": "overwrite",
+      "instruction": "List founders and executives with roles as documented.",
+      "extracted": "CEO: Sami Virtanen; CTO: Laura Niemi.",
+      "evidence": [
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 6",
+          "quote": "CEO: Sami Virtanen — ex-Wolt, former GM Nordics"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 6",
+          "quote": "CTO: Laura Niemi — ex-Supercell, AI & data platforms"
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Chief Executive Officer (CEO): Aino Laine"
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Chief Technology Officer (CTO): Mikko Virtanen"
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Head of Product: Sara Niemi"
+        }
+      ]
+    },
+    "6_2_key_staff_and_advisors": {
+      "update_rule": "append",
+      "instruction": "List key employees and advisors if explicitly named.",
+      "extracted": [
+        "Advisors: former retail CIOs and payments industry executives."
+      ],
+      "evidence": [
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 6",
+          "quote": "Advisors: former retail CIOs and payments industry executives"
+        }
+      ]
+    },
+    "6_3_organization_structure_and_hiring_plan": {
+      "update_rule": "overwrite",
+      "instruction": "Extract organization structure, open roles, and hiring plans if documented.",
+      "extracted": "Founder turnover: 0%. Average employee tenure: 1.4 years.",
+      "evidence": [
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Key Assumptions",
+          "quote": "Hiring Headcount grows from 28 → 45 by 2026"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 6",
+          "quote": "10 FTE total: 8 engineers & growth marketers"
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Current headcount is 10 full-time employees, primarily based in Finland."
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Senior iOS Engineer (1) — Responsible for iOS application architecture and performance."
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Senior Android Engineer (1) — Responsible for Android application architecture and platform\nintegrations."
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Backend Engineer (1) — Owns core APIs, data services, and cloud infrastructure."
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Product and engineering teams operate in cross-functional sprints with shared ownership of\ndelivery and quality."
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Sales Lead (1) — Responsible for pipeline development, enterprise pilots, and expansion deals."
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Customer Success Manager (1) — Owns onboarding, retention, and account expansion."
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Marketing Manager (1) — Manages demand generation, content, and product marketing."
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Hiring Plan (Next 6–9 Months)"
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Add 1 Account Executive to support growing enterprise pipeline."
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Add 1 DevOps / Site Reliability Engineer to strengthen infrastructure resilience and security\nposture."
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Add 1 Data Analyst to support product analytics, customer insights, and AI feature development."
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 2",
+          "quote": "Founder turnover: 0%."
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 2",
+          "quote": "Average employee tenure: 1.4 years."
+        }
+      ]
+    },
+    "6_4_founder_commitment_and_incentives": {
+      "update_rule": "overwrite",
+      "instruction": "Extract information on founder commitment, vesting, or incentives if explicitly stated.",
+      "extracted": null,
+      "evidence": []
+    }
+  },
+  "7_customers_and_traction": {
+    "7_1_customer_segments": {
+      "update_rule": "overwrite",
+      "instruction": "List customer segments based on documented information.",
+      "extracted": "Small and mid-sized businesses (SMBs).",
+      "evidence": [
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+          "source_location": "page 1",
+          "quote": "Define standardized onboarding and service delivery for Acme enterprise and SMB customers."
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+          "source_location": "page 1",
+          "quote": "Define standardized onboarding and service delivery for Acme enterprise and SMB customers."
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 1",
+          "quote": "for SMBs"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 4",
+          "quote": "Initial focus on SMB retailers with 1–50 locations."
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 5",
+          "quote": "150k monthly active consumers"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 5",
+          "quote": "400 paying merchant locations"
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "serving small and mid-sized businesses\n(SMBs)."
+        }
+      ]
+    },
+    "7_2_named_customers_and_leads": {
+      "update_rule": "append",
+      "instruction": "List named customers, pilots, or leads if explicitly mentioned.",
+      "extracted": null,
+      "evidence": []
+    },
+    "7_3_traction_and_revenue_metrics": {
+      "update_rule": "append",
+      "instruction": "Extract revenue figures and traction metrics if documented.",
+      "extracted": [
+        "Go-live timing metric: customers are declared live within 14 days on average.",
+        "Operational metric: customers are declared live within 14 days on average.",
+        "Monthly MRR (EUR), Gross Margin (%), Gross Profit (EUR), and COGS (EUR) are provided for months from 2024-08-01 through 2025-07-01.",
+        "Net customer growth is approximately 55% CAGR; gross churn stabilizes at 8–10% annually; NRR is 120%+ driven by seat expansion.",
+        "Time-to-value is less than 60 minutes; 83% weekly active usage in pilot customers.",
+        "ARR: €6.0M; MRR: €500k; Net Revenue Retention: 122%; Gross Margin: 82–84%; CAC payback < 12 months; Avg. ACV: €9.6k.",
+        "MRR €500k (July 2025); 12% MoM growth; 150k monthly active consumers; 400 paying merchant locations; Average merchant ARPU: €1,250 / year; Churn < 2.5% monthly (merchant)"
+      ],
+      "evidence": [
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+          "source_location": "page 1",
+          "quote": "Customer declared live within 14 days on average"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+          "source_location": "page 1",
+          "quote": "Customer declared live within 14 days on average"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Revenue",
+          "quote": "Month MRR_EUR Gross_Margin_% Gross_Profit_EUR COGS_EUR"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Revenue",
+          "quote": "2024-08-01 00:00:00 260000 80 208000 52000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Revenue",
+          "quote": "2025-07-01 00:00:00 500000 84 420000 80000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Key Assumptions",
+          "quote": "Customer Growth Net customer growth ~55% CAGR"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Key Assumptions",
+          "quote": "Churn Gross churn stabilizing at 8–10% annually"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Key Assumptions",
+          "quote": "NRR 120%+ driven by seat expansion"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 3",
+          "quote": "Time-to-value < 60 minutes."
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 3",
+          "quote": "83% weekly active usage in pilot customers."
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 5",
+          "quote": "ARR: €6.0M | MRR: €500k"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 5",
+          "quote": "Net Revenue Retention: 122%"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 5",
+          "quote": "Gross Margin: 82–84%"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 5",
+          "quote": "CAC payback < 12 months | Avg. ACV: €9.6k"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 5",
+          "quote": "MRR €500k (July 2025) | 12% MoM growth"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 5",
+          "quote": "150k monthly active consumers"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 5",
+          "quote": "400 paying merchant locations"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 5",
+          "quote": "Average merchant ARPU: €1,250 / year"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 5",
+          "quote": "Churn < 2.5% monthly (merchant)"
+        }
+      ]
+    },
+    "7_4_customer_validation_status": {
+      "update_rule": "append",
+      "instruction": "Extract evidence of paid customers, pilots, contracts, or references if stated.",
+      "extracted": [
+        "Contracting involves execution of an MSA and Order Form; provisioning is triggered upon countersignature.",
+        "Pilot customers are referenced, with 83% weekly active usage reported in pilots.",
+        "The document states there are enterprise pilots converting to paid rollouts.",
+        "400 paying merchant locations"
+      ],
+      "evidence": [
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+          "source_location": "page 1",
+          "quote": "Execution of MSA and Order Form"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+          "source_location": "page 1",
+          "quote": "Customer provisioning triggered upon countersignature"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 3",
+          "quote": "83% weekly active usage in pilot customers."
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 5",
+          "quote": "20 enterprise pilots converting to paid rollouts"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 5",
+          "quote": "400 paying merchant locations"
+        }
+      ]
+    }
+  },
+  "8_operations_and_compliance": {
+    "8_1_internal_processes": {
+      "update_rule": "append",
+      "instruction": "Describe internal operational processes if documented.",
+      "extracted": [
+        "Internal process includes contract initiation (execution of MSA and Order Form; provisioning triggered upon countersignature), technical onboarding (workspace creation and admin setup; user provisioning via email or SSO; initial data import), enablement (admin onboarding session; end-user training materials and videos; in-app guided setup), and go-live & support (standard support via ticketing system; SLA according to subscription tier).",
+        "Internal processes described include contract initiation (execution of MSA and Order Form; provisioning triggered upon countersignature), technical onboarding, enablement, and go-live & support.",
+        "The document describes internal processes related to data protection, privacy, and security governance, including data handling principles, access control practices, AI & data usage practices, and compliance & audits.",
+        "Quarterly employee engagement survey score: 8.6 / 10.",
+        "Company culture emphasizes autonomy, transparency, and sustainable work practices.",
+        "The document states an incident response rotation, MTTR target, customer notification timing for material incidents, and post-incident documentation; it also states monthly vulnerability scanning and patch timelines and daily encrypted backups with 30-day retention."
+      ],
+      "evidence": [
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+          "source_location": "page 1",
+          "quote": "2. Contract Initiation"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+          "source_location": "page 1",
+          "quote": "Execution of MSA and Order Form"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+          "source_location": "page 1",
+          "quote": "Customer provisioning triggered upon countersignature"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+          "source_location": "page 1",
+          "quote": "3. Technical Onboarding"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+          "source_location": "page 1",
+          "quote": "Workspace creation and admin setup"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+          "source_location": "page 1",
+          "quote": "User provisioning via email or SSO"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+          "source_location": "page 1",
+          "quote": "Initial data import (tasks, documents)"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+          "source_location": "page 1",
+          "quote": "4. Enablement"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+          "source_location": "page 1",
+          "quote": "Admin onboarding session (60 minutes)"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+          "source_location": "page 1",
+          "quote": "End-user training materials and videos"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+          "source_location": "page 1",
+          "quote": "In-app guided setup"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+          "source_location": "page 1",
+          "quote": "5. Go-Live & Support"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+          "source_location": "page 1",
+          "quote": "Standard support via ticketing system"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+          "source_location": "page 1",
+          "quote": "SLA according to subscription tier"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+          "source_location": "page 1",
+          "quote": "2. Contract Initiation"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+          "source_location": "page 1",
+          "quote": "Execution of MSA and Order Form"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+          "source_location": "page 1",
+          "quote": "Customer provisioning triggered upon countersignature"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+          "source_location": "page 1",
+          "quote": "3. Technical Onboarding"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+          "source_location": "page 1",
+          "quote": "4. Enablement"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+          "source_location": "page 1",
+          "quote": "5. Go-Live & Support"
+        },
+        {
+          "source_file": "Acme_Data_Protection_and_Security_Process.pdf",
+          "source_location": "page 1",
+          "quote": "Describe Acme’s approach to data protection, privacy, and security governance."
+        },
+        {
+          "source_file": "Acme_Data_Protection_and_Security_Process.pdf",
+          "source_location": "page 1",
+          "quote": "Data Handling Principles"
+        },
+        {
+          "source_file": "Acme_Data_Protection_and_Security_Process.pdf",
+          "source_location": "page 1",
+          "quote": "Access Control"
+        },
+        {
+          "source_file": "Acme_Data_Protection_and_Security_Process.pdf",
+          "source_location": "page 1",
+          "quote": "AI & Data Usage"
+        },
+        {
+          "source_file": "Acme_Data_Protection_and_Security_Process.pdf",
+          "source_location": "page 1",
+          "quote": "Compliance & Audits"
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 2",
+          "quote": "Quarterly employee engagement survey score: 8.6 / 10."
+        },
+        {
+          "source_file": "Acme_Organization_and_Team_Investor_DD.pdf",
+          "source_location": "page 2",
+          "quote": "Company culture emphasizes autonomy, transparency, and sustainable work practices."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "24/7 on-call incident response rotation in place."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Mean Time To Resolution (MTTR) target of 2 hours for critical incidents."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Customers notified within 72 hours for material security incidents."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Post-incident root cause analysis and remediation actions documented."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Automated vulnerability scanning performed monthly."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "High-severity vulnerabilities patched within 7 days."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Daily encrypted backups with a 30-day retention policy."
+        }
+      ]
+    },
+    "8_2_tooling_and_infrastructure": {
+      "update_rule": "append",
+      "instruction": "List tools, platforms, and infrastructure components if explicitly stated.",
+      "extracted": [
+        "Support is provided via a ticketing system; onboarding includes in-app guided setup; user provisioning supports SSO.",
+        "Support is provided via a ticketing system.",
+        "Infrastructure referenced: SaaS infrastructure only; on-device AI.",
+        "The document references AWS eu-west-1 (Ireland) for primary data residency and infrastructure hosting, Google Workspace for SSO, Stripe for payment processing, and Sentry for application monitoring and error tracking."
+      ],
+      "evidence": [
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+          "source_location": "page 1",
+          "quote": "Standard support via ticketing system"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+          "source_location": "page 1",
+          "quote": "In-app guided setup"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+          "source_location": "page 1",
+          "quote": "User provisioning via email or SSO"
+        },
+        {
+          "source_file": "Acme_Customer_Onboarding_and_Service_Delivery.pdf",
+          "source_location": "page 1",
+          "quote": "Standard support via ticketing system"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Key Assumptions",
+          "quote": "CapEx Minimal; SaaS infrastructure only"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Key Assumptions",
+          "quote": "Cloud Costs Scales sub-linearly due to on-device AI"
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Primary data residency on AWS eu-west-1 (Ireland)."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Amazon Web Services (AWS) — infrastructure hosting (eu-west-1)."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Role-based access control (RBAC) with Single Sign-On (SSO) via Google Workspace."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Stripe — payment processing."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Sentry — application monitoring and error tracking."
+        }
+      ]
+    },
+    "8_3_regulatory_and_compliance_status": {
+      "update_rule": "append",
+      "instruction": "Extract compliance assessments, certifications, or regulatory status if documented.",
+      "extracted": [
+        "The document states GDPR-aligned processes, annual penetration testing, and a SOC 2 audit roadmap.",
+        "Planned compliance activity: SOC 2 Type I audit (Q3).",
+        "Mentions emphasis on GDPR-aligned and privacy-conscious vendors; privacy and compliance concerns are referenced.",
+        "The document states GDPR compliance is implemented across products and internal processes; DPAs are executed with enterprise customers; a designated DPO oversees privacy governance and compliance. A SOC 2 Type II audit is currently in progress with an external auditor engaged, with a SOC 2 Type II report expected by Q4 2025. ISO 27001 certification is targeted for 2026."
+      ],
+      "evidence": [
+        {
+          "source_file": "Acme_Data_Protection_and_Security_Process.pdf",
+          "source_location": "page 1",
+          "quote": "GDPR-aligned processes"
+        },
+        {
+          "source_file": "Acme_Data_Protection_and_Security_Process.pdf",
+          "source_location": "page 1",
+          "quote": "Annual penetration testing"
+        },
+        {
+          "source_file": "Acme_Data_Protection_and_Security_Process.pdf",
+          "source_location": "page 1",
+          "quote": "SOC 2 audit roadmap"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 8",
+          "quote": "Q3: SOC 2 Type I audit, calendar integrations"
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Increased emphasis on GDPR-aligned and privacy-conscious software vendors in the EU market."
+        },
+        {
+          "source_file": "Acme_Market_QA_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "On-device AI processing to address privacy and compliance concerns."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "General Data Protection Regulation (GDPR) compliance implemented across all products and\ninternal processes."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Data Processing Agreements (DPAs) executed with enterprise customers."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "A designated Data Protection Officer (DPO) oversees privacy governance and compliance."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "SOC 2 Type II audit currently in progress; external auditor engaged."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "SOC 2 Type II report expected by Q4 2025."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "ISO 27001 certification targeted for 2026."
+        }
+      ]
+    },
+    "8_4_regulatory_timing_and_dependency_risk": {
+      "update_rule": "append",
+      "instruction": "Extract statements about regulatory dependencies or timing risks if explicitly described.",
+      "extracted": null,
+      "evidence": []
+    }
+  },
+  "9_financials": {
+    "9_1_historical_financials": {
+      "update_rule": "append",
+      "instruction": "Extract historical financial data such as income statements or balance sheets if provided.",
+      "extracted": [
+        "2024 Actuals (€): Revenue 6,000,000; COGS -1,050,000; Gross Profit 4,950,000; Gross Margin 82.5%; R&D -2,100,000; Sales & Marketing -1,450,000; G&A -850,000; Total Opex -4,400,000; EBITDA 550,000; EBITDA Margin 9.2%; Cash Burn (Annual) -300,000; Ending Cash Balance 2,700,000.",
+        "Revenue sheet includes monthly MRR (EUR), Gross Margin (%), Gross Profit (EUR), and COGS (EUR) from 2024-08-01 to 2025-07-01.",
+        "Operating expenses by month (EUR) are provided for S&M spend, R&D spend, G&A spend, and total OpEx from 2024-08-01 through 2025-07-01.",
+        "Cash and burn history is provided for months 2024-08-01 through 2025-07-01, including Net_Burn_EUR, Cash_Balance_EUR, and Runway_months_estimate."
+      ],
+      "evidence": [
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "Metric 2024 Actual (€) 2025 Forecast (€) 2026 Forecast (€)"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "Revenue 6000000 9500000 15000000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "COGS -1050000 -1520000 -2250000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "Gross Profit 4950000 7980000 12750000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "Gross Margin % 82.5% 84.0% 85.0%"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "R&D -2100000 -2600000 -3200000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "Sales & Marketing -1450000 -2200000 -3200000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "G&A -850000 -1050000 -1350000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "Total Opex -4400000 -5850000 -7750000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "EBITDA 550000 2130000 5000000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "EBITDA Margin % 9.2% 22.4% 33.3%"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "Cash Burn (Annual) -300000 -1100000 1800000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "Ending Cash Balance 2700000 1600000 3400000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Revenue",
+          "quote": "Month MRR_EUR Gross_Margin_% Gross_Profit_EUR COGS_EUR"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Revenue",
+          "quote": "2024-08-01 00:00:00 260000 80 208000 52000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Revenue",
+          "quote": "2025-07-01 00:00:00 500000 84 420000 80000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Expenses",
+          "quote": "Month S&M_Spend_EUR R&D_Spend_EUR G&A_Spend_EUR Total_OpEx_EUR"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Expenses",
+          "quote": "2024-08-01 00:00:00 150000 180000 60000 390000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Expenses",
+          "quote": "2025-07-01 00:00:00 220000 220000 80000 520000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Cash",
+          "quote": "Month Net_Burn_EUR Cash_Balance_EUR Runway_months_estimate"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Cash",
+          "quote": "2024-08-01 00:00:00 182000 3818000 35.3"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Cash",
+          "quote": "2025-07-01 00:00:00 100000 2290479.99 21.2"
+        }
+      ]
+    },
+    "9_2_forecasts_and_projections": {
+      "update_rule": "append",
+      "instruction": "Extract forward-looking financial projections, clearly labeling them as forecasts.",
+      "extracted": [
+        "2025 Forecast (€): Revenue 9,500,000; COGS -1,520,000; Gross Profit 7,980,000; Gross Margin 84.0%; R&D -2,600,000; Sales & Marketing -2,200,000; G&A -1,050,000; Total Opex -5,850,000; EBITDA 2,130,000; EBITDA Margin 22.4%; Cash Burn (Annual) -1,100,000; Ending Cash Balance 1,600,000. 2026 Forecast (€): Revenue 15,000,000; COGS -2,250,000; Gross Profit 12,750,000; Gross Margin 85.0%; R&D -3,200,000; Sales & Marketing -3,200,000; G&A -1,350,000; Total Opex -7,750,000; EBITDA 5,000,000; EBITDA Margin 33.3%; Cash Burn (Annual) 1,800,000; Ending Cash Balance 3,400,000.",
+        "Forecast: blended ARPU of €22/month growing to €26 by 2026; gross churn stabilizing at 8–10% annually; headcount grows from 28 to 45 by 2026.",
+        "Forecast target outcomes: €1.2M+ MRR; multi-country expansion."
+      ],
+      "evidence": [
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "Metric 2024 Actual (€) 2025 Forecast (€) 2026 Forecast (€)"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "Revenue 6000000 9500000 15000000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "COGS -1050000 -1520000 -2250000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "Gross Profit 4950000 7980000 12750000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "Gross Margin % 82.5% 84.0% 85.0%"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "R&D -2100000 -2600000 -3200000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "Sales & Marketing -1450000 -2200000 -3200000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "G&A -850000 -1050000 -1350000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "Total Opex -4400000 -5850000 -7750000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "EBITDA 550000 2130000 5000000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "EBITDA Margin % 9.2% 22.4% 33.3%"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "Cash Burn (Annual) -300000 -1100000 1800000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "Ending Cash Balance 2700000 1600000 3400000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Key Assumptions",
+          "quote": "Pricing Blended ARPU €22/month growing to €26 by 2026"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Key Assumptions",
+          "quote": "Churn Gross churn stabilizing at 8–10% annually"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Key Assumptions",
+          "quote": "Hiring Headcount grows from 28 → 45 by 2026"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 8",
+          "quote": "Target outcomes: €1.2M+ MRR, multi-country expansion"
+        }
+      ]
+    },
+    "9_3_unit_economics": {
+      "update_rule": "append",
+      "instruction": "Extract unit economics metrics if explicitly documented.",
+      "extracted": [
+        "Gross margin, gross profit, and COGS are provided alongside MRR.",
+        "Blended ARPU is €22/month, growing to €26 by 2026; NRR is 120%+ driven by seat expansion; gross churn stabilizes at 8–10% annually.",
+        "Average merchant ARPU: €1,250 / year; Churn < 2.5% monthly (merchant)",
+        "Customer Acquisition Cost (CAC): €45; Lifetime Value (LTV): €310; LTV / CAC: 6.9x; Gross margin: 78%"
+      ],
+      "evidence": [
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Revenue",
+          "quote": "Month MRR_EUR Gross_Margin_% Gross_Profit_EUR COGS_EUR"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Key Assumptions",
+          "quote": "Pricing Blended ARPU €22/month growing to €26 by 2026"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Key Assumptions",
+          "quote": "NRR 120%+ driven by seat expansion"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Key Assumptions",
+          "quote": "Churn Gross churn stabilizing at 8–10% annually"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 5",
+          "quote": "Average merchant ARPU: €1,250 / year"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 5",
+          "quote": "Churn < 2.5% monthly (merchant)"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 7",
+          "quote": "Gross margin: 78%"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 7",
+          "quote": "Customer Acquisition Cost (CAC): €45"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 7",
+          "quote": "Lifetime Value (LTV): €310"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 7",
+          "quote": "LTV / CAC: 6.9x"
+        }
+      ]
+    },
+    "9_4_cash_position_and_runway": {
+      "update_rule": "overwrite",
+      "instruction": "Extract current cash balance and runway information if documented.",
+      "extracted": "Runway: 18 months (to be funded by the raise).",
+      "evidence": [
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "Cash Burn (Annual) -300000 -1100000 1800000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet KPI",
+          "quote": "Ending Cash Balance 2700000 1600000 3400000"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Cash",
+          "quote": "2025-07-01 00:00:00 100000 2290479.99 21.2"
+        },
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Cash",
+          "quote": "Month Net_Burn_EUR Cash_Balance_EUR Runway_months_estimate"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 7",
+          "quote": "Monthly burn: €250k | Runway: 20 months"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 8",
+          "quote": "Raising €5M to fund 18 months of runway toward Series A"
+        }
+      ]
+    }
+  },
+  "10_funding_and_capital_structure": {
+    "10_1_capitalization_table": {
+      "update_rule": "overwrite",
+      "instruction": "Extract ownership structure and shareholdings if documented.",
+      "extracted": null,
+      "evidence": []
+    },
+    "10_2_safe_instruments_and_terms": {
+      "update_rule": "overwrite",
+      "instruction": "Extract SAFE or convertible instrument details if stated.",
+      "extracted": null,
+      "evidence": []
+    },
+    "10_3_current_fundraising_round": {
+      "update_rule": "overwrite",
+      "instruction": "Extract details of the current fundraising round if documented.",
+      "extracted": "Current round: Seed+; raising €5M toward Series A.",
+      "evidence": [
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 8",
+          "quote": "Seed+ Round"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 8",
+          "quote": "Raising €5M to fund 18 months of runway toward Series A"
+        }
+      ]
+    },
+    "10_4_use_of_funds": {
+      "update_rule": "overwrite",
+      "instruction": "Extract stated plans for use of funds if documented.",
+      "extracted": "Use of funds allocation: 60% Product & engineering; 25% Go-to-market; 15% Operations & compliance.",
+      "evidence": [
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 8",
+          "quote": "Use of funds:"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 8",
+          "quote": "• 60% Product & engineering"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 8",
+          "quote": "• 25% Go-to-market"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 8",
+          "quote": "• 15% Operations & compliance"
+        }
+      ]
+    }
+  },
+  "11_risks_and_dependencies": {
+    "11_1_key_business_risks": {
+      "update_rule": "append",
+      "instruction": "Extract explicitly stated business risks.",
+      "extracted": null,
+      "evidence": []
+    },
+    "11_2_compliance_and_technical_risks": {
+      "update_rule": "append",
+      "instruction": "Extract compliance or technical risks as documented.",
+      "extracted": [
+        "Cloud costs scale sub-linearly due to on-device AI (technical dependency/constraint impacting cost scaling)."
+      ],
+      "evidence": [
+        {
+          "source_file": "Acme_Enriched_Financials.xlsx",
+          "source_location": "sheet Key Assumptions",
+          "quote": "Cloud Costs Scales sub-linearly due to on-device AI"
+        }
+      ]
+    },
+    "11_3_top_investor_risks": {
+      "update_rule": "append",
+      "instruction": "Extract investor-relevant risks only if explicitly stated.",
+      "extracted": null,
+      "evidence": []
+    },
+    "11_4_external_dependencies": {
+      "update_rule": "append",
+      "instruction": "List dependencies on third parties or platforms if documented.",
+      "extracted": [
+        "The document lists sub-processors including Amazon Web Services (AWS) for infrastructure hosting (eu-west-1), Stripe for payment processing, and Sentry for application monitoring and error tracking."
+      ],
+      "evidence": [
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Sub-processors"
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Amazon Web Services (AWS) — infrastructure hosting (eu-west-1)."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Stripe — payment processing."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "Sentry — application monitoring and error tracking."
+        }
+      ]
+    }
+  },
+  "12_milestones_and_value_creation": {
+    "12_1_near_term_milestones": {
+      "update_rule": "overwrite",
+      "instruction": "Extract near-term milestones if explicitly documented.",
+      "extracted": "Near-term milestones: Q3 SOC 2 Type I audit and calendar integrations; Q4 Offline mode v2, admin analytics, and SSO/SAML.",
+      "evidence": [
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 8",
+          "quote": "Q3: SOC 2 Type I audit, calendar integrations"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 8",
+          "quote": "Q4: Offline mode v2, admin analytics, SSO/SAML"
+        }
+      ]
+    },
+    "12_2_medium_term_milestones": {
+      "update_rule": "overwrite",
+      "instruction": "Extract medium-term milestones if documented.",
+      "extracted": "The document states a SOC 2 Type II report is expected by Q4 2025 and ISO 27001 certification is targeted for 2026.",
+      "evidence": [
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 8",
+          "quote": "Q1: ML-based task prioritization, workflow marketplace"
+        },
+        {
+          "source_file": "Acme_Enriched_Investor_Deck.pptx",
+          "source_location": "slide 8",
+          "quote": "Q2: Industry templates (consulting, construction, field services)"
+        },
+        {
+          "source_file": "Acme_Mobile_Investor_Deck_Enriched.pptx",
+          "source_location": "slide 8",
+          "quote": "Target outcomes: €1.2M+ MRR, multi-country expansion"
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "SOC 2 Type II report expected by Q4 2025."
+        },
+        {
+          "source_file": "Acme_Security_and_Compliance_Investor_DD.pdf",
+          "source_location": "page 1",
+          "quote": "ISO 27001 certification targeted for 2026."
+        }
+      ]
+    }
+  },
+  "13_exit_considerations": {
+    "13_1_strategic_buyer_landscape": {
+      "update_rule": "append",
+      "instruction": "Extract references to potential acquirers or strategic buyers if documented.",
+      "extracted": null,
+      "evidence": []
+    },
+    "13_2_exit_pathways_and_timing": {
+      "update_rule": "append",
+      "instruction": "Extract statements about exit pathways or timing if explicitly stated.",
+      "extracted": null,
+      "evidence": []
+    }
+  },
+  "14_open_questions_and_gaps": {
+    "update_rule": "append",
+    "instruction": "List areas where information is missing, unclear, or explicitly noted as not provided.",
+    "extracted": [
+      "No legal entity, jurisdiction, or last-updated date is stated in the provided page; no revenue/pricing model details beyond an \"SLA according to subscription tier\"; no named customers or competitors are mentioned.",
+      "Missing or not evidenced in provided documents for fields: /document_metadata/legal_entity, /5_intellectual_property/5_1_patents_and_trademarks, /5_intellectual_property/5_2_ip_ownership_and_assignment, /6_team_and_organization/6_4_founder_commitment_and_incentives, /7_customers_and_traction/7_2_named_customers_and_leads, /8_operations_and_compliance/8_4_regulatory_timing_and_dependency_risk, /10_funding_and_capital_structure/10_1_capitalization_table, /10_funding_and_capital_structure/10_2_safe_instruments_and_terms, /11_risks_and_dependencies/11_1_key_business_risks, /11_risks_and_dependencies/11_3_top_investor_risks, /13_exit_considerations/13_1_strategic_buyer_landscape, /13_exit_considerations/13_2_exit_pathways_and_timing, /15_appendices"
+    ],
+    "evidence": [
+      {
+        "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+        "source_location": "page 1",
+        "quote": "Acme Corp — Customer Onboarding & Service Delivery Process"
+      },
+      {
+        "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+        "source_location": "page 1",
+        "quote": "Internal Process Document | Investor Due Diligence"
+      },
+      {
+        "source_file": "Acme_Customer_Onboarding_and_Service_Delivery (1).pdf",
+        "source_location": "page 1",
+        "quote": "SLA according to subscription tier"
+      }
+    ]
+  },
+  "15_appendices": {
+    "update_rule": "append",
+    "instruction": "List supporting documents or detailed materials referenced.",
+    "extracted": null,
+    "evidence": []
+  }
+}
